@@ -22,9 +22,8 @@
       // We're looking at a 5.1+ JIRA case
       // there's no summary-val in our jira.  Either ahead of the curve or behind.
       //name = $("#key-val").text() + ": " + $("#summary-val").text();
-      name = $.trim(document.title);
-      var mess = $("#descriptionmodule").text();
-      desc += "\n" + $mess.replace("^Description", '');
+      name = $.trim(document.title); 
+      desc += "\n" + $("#descriptionmodule").text().replace(/^Description/, '');
 
     } else if ($("#show_issue").length) {
 
