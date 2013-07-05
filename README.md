@@ -1,5 +1,8 @@
 **forked from danlec**: likely going to break a bunch of shit to get it to do what I want.  
 
+
+Create a bookmark in your browser of choice (I've only tested safari), and copypasta the javascript below into it.
+
 ```javascript
 javascript:(function(a){window.trelloAppKey="optional";window.trelloIdList="optional";var b=a.createElement("script");b.src="https://raw.github.com/sixty4k/Trello-Bookmarklet/master/trello_bookmarklet.js";a.getElementsByTagName("head")[0].appendChild(b)})(document);
 ```
