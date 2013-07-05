@@ -20,7 +20,9 @@
     } else if ($("#jira").length){
 
       // We're looking at a 5.1+ JIRA case
-      name = $("#key-val").text() + ": " + $("#summary-val").text();
+      // there's no summary-val in our jira.  Either ahead of the curve or behind.
+      //name = $("#key-val").text() + ": " + $("#summary-val").text();
+      name = $.trim(document.title);
 
     } else if ($("#show_issue").length) {
 
