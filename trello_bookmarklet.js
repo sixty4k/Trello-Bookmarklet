@@ -23,7 +23,7 @@
       // there's no summary-val in our jira.  Either ahead of the curve or behind.
       //name = $("#key-val").text() + ": " + $("#summary-val").text();
       name = $.trim(document.title);
-      mess = $("#descriptionmodule").text();
+      var mess = $("#descriptionmodule").text();
       desc += "\n" + $mess.replace("^Description", '');
 
     } else if ($("#show_issue").length) {
