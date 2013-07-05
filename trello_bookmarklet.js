@@ -258,7 +258,8 @@
     },
     // Get the list to add cards to, either from local storage or by prompting the user
     function(next) {
-      var idList = store(idListName) || window[idListName];
+      //var idList = store(idListName) || window[idListName];
+      var idList = window[idListName];
       if(idList && idList.length == 24) {
         next(idList);
       } else {
