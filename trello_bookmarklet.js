@@ -156,6 +156,7 @@
       border: "1px solid #000",
       padding: "16px",
       width: 300,
+      height: 300,
       top: 64,
       left: ($(window).width() - 200) / 2,
       background: "#fff",
