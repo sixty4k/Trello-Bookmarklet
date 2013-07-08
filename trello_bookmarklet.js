@@ -142,8 +142,7 @@
       left: 0,
       top: 0,
       right: 0,
-      bottom: 0,
-      overflow: "scroll"
+      bottom: 0
     })
     .appendTo("body")
     .click(function(){
@@ -160,7 +159,8 @@
       top: 64,
       left: ($(window).width() - 200) / 2,
       background: "#fff",
-      "z-index": 1e5
+      "z-index": 1e5,
+      overflow: "scroll"
     })
     .appendTo("body");
 
