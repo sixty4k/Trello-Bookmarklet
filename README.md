@@ -1,5 +1,6 @@
 **forked from danlec**: likely going to break a bunch of shit to get it to do what I want.  
 
+**this solved a specific problem I had at a previous job, you should use the repo this is forked from not this**
 
 Create a bookmark in your browser of choice (I've only tested safari), and copypasta the javascript below into it.
 
